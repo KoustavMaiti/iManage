@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="OnsenUI-dist-2.9.2/css/onsenui.css">
+  <link rel="stylesheet" href="OnsenUI-dist-2.9.2/css/onsen-css-components.min.css">
+  <link rel="stylesheet" href="css/template_login.css">
+  <script src="OnsenUI-dist-2.9.2/js/onsenui.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  
+</head>
+<body style="overflow:auto">
+   <template  id="Login">
+      <ons-page>
+        <ons-toolbar  id="navigator">
+          <div class="left" style=" padding : 1px;padding-left: 20px; height : 90%;display:flex;align-items : center">
+           <img src="css/Images/icon_navigation/res/mipmap-hdpi/icon_navigation.png" style="height: 90%">
+           
+          </div>
+
+          <div class="right" style=" padding-right: 20px;" id="toobar-btn-container">
+            <ons-button modifier="quite" class="login-button" id="login-btn" 
+            style="background-color:transparent">
+              <b>LOG IN</b>
+            </ons-button>
+            <ons-button modifier="outline" 
+              class="login-button" id="create-btn">
+              <b>Create account</b> &nbsp; 🔐
+            </ons-button>
+            
+          
+          </div>
+        </ons-toolbar>
+        <div class="page__background" style="background-image: linear-gradient(to right bottom, #d9c2f7, #d5c5f7, #d2c8f6, #d0cbf5, #cecdf4)"></div>
+              <div id="login-page" >
+                 <div id="login-form"></div>
+              </div>
+      </ons-page>
+   </template>
+   <ons-navigator page="Login">
+         
+   </ons-navigator>
+</body>
+<script>
+
+</script>
+</html>
